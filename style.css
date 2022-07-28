@@ -4,10 +4,11 @@ body {
 .main-header {
     display: flex;
     justify-content: space-between;
-    background-color: wheat;
+    background-color: lemonchiffon;
     height: 100px;
     margin: 20px;
     flex-direction: row;
+    margin-bottom: 40px;
 }
 
 h1 {
@@ -16,9 +17,12 @@ h1 {
     padding: 30px;
     max-width: max-content;
     font-weight: 200;
-
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+a:hover {
+    background-color: lightpink;
+  }
 
 .headernav {
     flex-wrap: wrap;
@@ -98,7 +102,9 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .website-work-content {
@@ -106,15 +112,19 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: lemonchiffon;
+    margin: 90px;
 
 }
 
 .xibitz-image {
 display: flex;
+padding: 20px;
 }
 
-.website-work-header {
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+#xibitz-website {
+    font-weight: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .website-work-paragraph {
@@ -129,13 +139,21 @@ display: flex;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 0px;
+    margin-right: 20px;
+    background-color: beige;
+    margin-top: 40px;
 }
 
 .boxes {
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: 10px;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+
 
 }
 
@@ -147,6 +165,12 @@ display: flex;
 .phone-image {
     display: flex;
     justify-content: flex-end;
+}
+
+h3 {
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 25px;
 }
 
 /*footer section*/
@@ -177,6 +201,7 @@ h4 {
     font-weight: 300;
     align-items: center;
     margin-left: 25px;
+    background-color: lemonchiffon;
 }
 
 a {
