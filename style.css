@@ -28,7 +28,7 @@ a:hover {
     flex-wrap: wrap;
     background-color: wheat;
     display: flex;
-    width: 40%;    
+    width: 1000%;    
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -63,12 +63,7 @@ a {
     align-items: center;
 }
 
-@media (min-width: 900px) {
-    .intro-container {
-        display: flex;
-        justify-content: space-between;  
-    }
-}
+
 
 #kelsie-szost {
     display: flex;
@@ -113,16 +108,16 @@ a {
     align-items: center;
     justify-content: center;
     background-color: lemonchiffon;
-    margin: 90px;
-
+    margin: 30px;
 }
 
 .xibitz-image {
-display: flex;
-padding: 20px;
+    padding: 20px;
 }
 
+
 #xibitz-website {
+    display: flex
     font-weight: 500px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -131,6 +126,7 @@ padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 70%;
     font-weight: 200;
+    line-height: 30px;
 }
 
 /*bottom two boxes*/
@@ -140,10 +136,11 @@ padding: 20px;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    margin-left: 0px;
+    margin-left: 20px;
     margin-right: 20px;
     background-color: beige;
     margin-top: 40px;
+    max-width: 100%;
 }
 
 .boxes {
@@ -153,8 +150,7 @@ padding: 20px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 40px;
-
-
+    max-width: 100%;
 }
 
 .apps-image {
@@ -166,6 +162,8 @@ padding: 20px;
     display: flex;
     justify-content: flex-end;
 }
+
+
 
 h3 {
     font-weight: 200;
@@ -185,10 +183,9 @@ h3 {
 }
 
 .footernav {
-    flex-wrap: wrap;
     background-color: wheat;
     display: flex;
-    width: 40%;    
+    width: 100%;    
     align-items: center;
     justify-content: space-evenly;
 }
@@ -213,3 +210,54 @@ li {
     font-weight: 200;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+    .intro-container {
+        flex-direction: column;
+        align-items: center;  
+        height: auto;
+    }
+    .layout-content {
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    #kelsie-szost {
+        margin: auto;
+    }
+    #boxes-container {
+        flex-direction: column;
+
+    }
+    .boxes {
+        flex-direction: column;
+    }
+    h3 {
+        float: right;
+    }
+    .nav-menu {
+        flex-direction: column;
+
+    }
+    .footer {
+        flex-direction: column;
+        
+    }
+  li {
+    flex-direction: row;
+  }
+
+  .a {
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: baseline;
+  }
+
+.footernav {
+    max-width: 100%;
+}
+.headernav{
+    max-width: 100%;
+}
+}
+
