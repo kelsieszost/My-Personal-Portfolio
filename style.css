@@ -26,101 +26,10 @@ a.nav-link {
 }
 
 
-.main-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: beige;
-    height: 100px;
-    margin: 20px;
-    flex-direction: row;
-    margin-bottom: 40px;
-}
-
-h1 {
-    align-items: center;
-    display: flex;
-    padding: 1rem;
-    max-width: max-content;
-    font-weight: 200;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 a:hover {
     background-color: white;
   }
 
-.headernav {
-    flex-wrap: wrap;
-    background-color: lightgrey;
-    display: flex;
-    width: 100%;    
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.navLinks {
-    list-style-type: none;
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-    color: white;
-    background-color: white;
-}
-
-/* .navLink {
-    text-decoration: none;
-    font-weight: 200;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} */
-
-
-/* main section including image, header and paragraph*/
-
-.intro-container {
-    display: flex;
-    margin: 20px;
-    height: 500px;
-    background-color: beige;
-    flex-direction: row;
-    align-items: center;
-}
-
-
-
-#kelsie-szost {
-    display: flex;
-    margin-left: 300px;
-}
-
-.layout-content {
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-
-#about-me {
-    font-weight: 500;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-#about-me-paragraph {
-    align-items: center;
-    max-width: 90%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 200;
-    line-height: 25px;
-}
-
-h3 {
-    font-weight: 200;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 25px;
-}
 
 /*footer section*/
 
@@ -139,22 +48,6 @@ h3 {
     width: 100%;    
     align-items: center;
     justify-content: space-evenly;
-}
-
-h4 {
-    display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: xx-large;
-    color: black;
-    font-weight: 300;
-    align-items: center;
-    margin-left: 25px;
-    background-color: lemonchiffon;
-}
-
-a {
-    text-decoration: none;
-    font-weight: 200;
 }
 
 
