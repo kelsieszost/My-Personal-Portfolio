@@ -28,7 +28,7 @@ a:hover {
     flex-wrap: wrap;
     background-color: wheat;
     display: flex;
-    width: 1000%;    
+    width: 100%;    
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
