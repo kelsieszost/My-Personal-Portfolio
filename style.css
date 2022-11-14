@@ -52,30 +52,18 @@ a:hover {
 
 
 @media screen and (max-width: 768px) {
-    .intro-container {
-        flex-direction: column;
-        align-items: center;  
-        height: auto;
+    .kelsieszost {
+        display: block;
+       align-items: center;
+       justify-content: center;
     }
     .layout-content {
         flex-direction: column;
         align-items: center;
         margin: auto;
     }
-    #kelsie-szost {
-        margin: auto;
-
-    }
     h3 {
         float: right;
-    }
-    .nav-menu {
-        flex-direction: column;
-
-    }
-    .footer {
-        flex-direction: column;
-        
     }
 
 #footernav {
