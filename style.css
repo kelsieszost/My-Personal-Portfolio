@@ -31,46 +31,4 @@ a:hover {
   }
 
 
-/*footer section*/
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: wheat;
-    height: 100px;
-    margin: 20px;
-    flex-direction: row;
-}
-
-#footernav {
-    background-color: wheat;
-    display: flex;
-    width: 100%;    
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-
-@media screen and (max-width: 768px) {
-    .kelsieszost {
-        display: block;
-       align-items: center;
-       justify-content: center;
-    }
-    .layout-content {
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-    }
-    h3 {
-        float: right;
-    }
-
-#footernav {
-    max-width: 100%;
-}
-.headernav{
-    max-width: 100%;
-}
-}
 
