@@ -30,5 +30,24 @@ a:hover {
     background-color: white;
   }
 
+  footer.text-center.text-lg-start.text-black {
+   background-color: lightsteelblue;
+   padding: 20px;
+  }
+
+  section.mb-4.text-center {
+    background-color: white;
+    padding: 20px;
+
+  }
+
+  a.btn.btn-outline-light.btn-floating.m-1 {
+    background-color: lightsteelblue;
+  }
+
+div.container.my-5 {
+
+}
+
 
 
